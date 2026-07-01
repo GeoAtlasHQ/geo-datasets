@@ -1,0 +1,3 @@
+[
+{"id":"geo:node/13712367219","slug":"osm-node-13712367219-node-13712367219","entityType":"Poi","name":"OSM node/13712367219","alternateNames":[],"lat":40.4626011,"lon":49.7469005,"parent":"geo:relation/11825937","path":["geo:relation/364110","geo:relation/11825937","geo:node/13712367219"],"depth":2,"resolvedCountry":"geo:relation/364110","resolvedRegion":null,"resolvedCity":null,"resolvedDistrict":"geo:relation/11825937","resolvedNeighbourhood":null,"resolvedVillage":null,"population":null,"tags":{"leisure":"indoor_play"}}
+]
