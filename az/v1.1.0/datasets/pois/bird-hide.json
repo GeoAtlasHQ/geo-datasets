@@ -1,0 +1,3 @@
+[
+{"id":"geo:node/12745494846","slug":"m-nz-r-node-12745494846","entityType":"Poi","name":"Mənzərə","alternateNames":[],"lat":40.0534012,"lon":46.5492825,"parent":"geo:way/1211764249","path":["geo:relation/364110","geo:relation/17092684","geo:way/1211764249","geo:node/12745494846"],"depth":3,"resolvedCountry":"geo:relation/364110","resolvedRegion":null,"resolvedCity":null,"resolvedDistrict":"geo:relation/17092684","resolvedNeighbourhood":null,"resolvedVillage":"geo:way/1211764249","population":null,"tags":{"leisure":"bird_hide","name":"Mənzərə"}}
+]

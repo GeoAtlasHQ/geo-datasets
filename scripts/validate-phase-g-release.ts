@@ -20,6 +20,7 @@ async function main(): Promise<void> {
     readonly classification?: Record<string, unknown>;
     readonly buildings?: Record<string, unknown>;
     readonly classificationZones?: Record<string, unknown>;
+    readonly notablePlaces?: Record<string, unknown>;
   }
 
   let exitCode = 0;
@@ -66,18 +67,20 @@ async function main(): Promise<void> {
   const hasPhaseG =
     manifest.classification !== undefined ||
     manifest.buildings !== undefined ||
-    manifest.classificationZones !== undefined;
+    manifest.classificationZones !== undefined ||
+    manifest.notablePlaces !== undefined;
 
   if (!hasPhaseG) {
     warn(
-      'Published manifest has no Phase G blocks — expected until next dataset semver release',
+      'Published manifest has no Phase G/H blocks — expected until next dataset semver release',
     );
     warn(`Current datasetVersion: ${manifest.datasetVersion ?? 'unknown'}`);
   } else {
-    pass('Phase G manifest blocks present');
+    pass('Phase G/H manifest blocks present');
     if (!manifest.classification) fail('Partial Phase G: missing classification block');
     if (!manifest.buildings) fail('Partial Phase G: missing buildings block');
     if (!manifest.classificationZones) fail('Partial Phase G: missing classificationZones block');
+    if (!manifest.notablePlaces) fail('Partial Phase H: missing notablePlaces block');
   }
 
   const releaseJsonPath = path.join(datasetsRoot, '..', 'release.json');
