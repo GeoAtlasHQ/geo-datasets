@@ -1,0 +1,29 @@
+{
+  "version": "5.2.44-beylagan-full",
+  "country": "az",
+  "generatedAt": "2026-10-07T12:20:13.962Z",
+  "baseVersion": "5.2.39-central-aran-full",
+  "slice": "k-mil-mugan",
+  "artifacts": [
+    {
+      "id": "hierarchy",
+      "path": "hierarchy/hierarchy.json",
+      "family": "hierarchy",
+      "kind": "hierarchy",
+      "contentType": "application/json",
+      "sizeBytes": 46457281
+    },
+    {
+      "id": "boundaries",
+      "path": "boundaries/boundaries.index.json",
+      "family": "boundaries",
+      "kind": "boundaries"
+    }
+  ],
+  "rules": {
+    "immutablePath": true,
+    "noOverwritePriorVersion": true,
+    "mergeUpsertOnly": true
+  },
+  "note": "K1-K4+K6: Imisli, Saatli, Sabirabad, Bilesuvar, Beylagan; K5 Celilabad skip->M"
+}
