@@ -1,0 +1,28 @@
+{
+  "version": "5.1.0-khatai-full",
+  "country": "az",
+  "generatedAt": "2026-10-07T06:49:37.844Z",
+  "baseVersion": "5.0.0-pro-ganja-dashkasan-full",
+  "slice": "baku-khatai",
+  "artifacts": [
+    {
+      "id": "hierarchy",
+      "path": "hierarchy/hierarchy.json",
+      "family": "hierarchy",
+      "kind": "hierarchy",
+      "contentType": "application/json",
+      "sizeBytes": 26841311
+    },
+    {
+      "id": "boundaries",
+      "path": "boundaries/boundaries.index.json",
+      "family": "boundaries",
+      "kind": "boundaries"
+    }
+  ],
+  "rules": {
+    "immutablePath": true,
+    "noOverwritePriorVersion": true,
+    "mergeUpsertOnly": true
+  }
+}

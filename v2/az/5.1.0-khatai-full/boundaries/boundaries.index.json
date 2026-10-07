@@ -1,0 +1,11 @@
+{
+  "count": 1,
+  "chunks": [
+    {
+      "index": 0,
+      "path": "boundaries/boundaries-khatai.json",
+      "key": "khatai",
+      "entityCount": 1
+    }
+  ]
+}
