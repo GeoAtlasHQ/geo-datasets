@@ -1,0 +1,29 @@
+{
+  "version": "5.1.12-baku-full",
+  "country": "az",
+  "generatedAt": "2026-10-07T08:10:55.032Z",
+  "baseVersion": "5.1.6.1-boundaries-full",
+  "slice": "baku-b8-b12-close",
+  "artifacts": [
+    {
+      "id": "hierarchy",
+      "path": "hierarchy/hierarchy.json",
+      "family": "hierarchy",
+      "kind": "hierarchy",
+      "contentType": "application/json",
+      "sizeBytes": 36041188
+    },
+    {
+      "id": "boundaries",
+      "path": "boundaries/boundaries.index.json",
+      "family": "boundaries",
+      "kind": "boundaries"
+    }
+  ],
+  "rules": {
+    "immutablePath": true,
+    "noOverwritePriorVersion": true,
+    "mergeUpsertOnly": true
+  },
+  "note": "Bakı B1-B12 close: hierarchy tip 5.1.11-qaradagh (B8-B12 wave) + full boundaries-000 + B8-B12 overrides; entityCount=49864; boundaries=5369"
+}
