@@ -1,0 +1,28 @@
+{
+  "version": "5.1.6-bineqedi-full",
+  "country": "az",
+  "generatedAt": "2026-10-07T07:53:10.632Z",
+  "baseVersion": "5.1.5-sabail-full",
+  "slice": "baku-bineqedi",
+  "artifacts": [
+    {
+      "id": "hierarchy",
+      "path": "hierarchy/hierarchy.json",
+      "family": "hierarchy",
+      "kind": "hierarchy",
+      "contentType": "application/json",
+      "sizeBytes": 33076721
+    },
+    {
+      "id": "boundaries",
+      "path": "boundaries/boundaries.index.json",
+      "family": "boundaries",
+      "kind": "boundaries"
+    }
+  ],
+  "rules": {
+    "immutablePath": true,
+    "noOverwritePriorVersion": true,
+    "mergeUpsertOnly": true
+  }
+}
