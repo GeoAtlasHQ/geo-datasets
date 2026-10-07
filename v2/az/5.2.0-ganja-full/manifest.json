@@ -1,0 +1,29 @@
+{
+  "version": "5.2.0-ganja-full",
+  "country": "az",
+  "generatedAt": "2026-10-07T08:20:08.617Z",
+  "baseVersion": "5.1.12-baku-full",
+  "slice": "c-d-e1-wave",
+  "artifacts": [
+    {
+      "id": "hierarchy",
+      "path": "hierarchy/hierarchy.json",
+      "family": "hierarchy",
+      "kind": "hierarchy",
+      "contentType": "application/json",
+      "sizeBytes": 39516295
+    },
+    {
+      "id": "boundaries",
+      "path": "boundaries/boundaries.index.json",
+      "family": "boundaries",
+      "kind": "boundaries"
+    }
+  ],
+  "rules": {
+    "immutablePath": true,
+    "noOverwritePriorVersion": true,
+    "mergeUpsertOnly": true
+  },
+  "note": "Koordinator wave: Absheron+Sumqayit+Ganja tip; Bakı preserved; full boundaries-000"
+}
