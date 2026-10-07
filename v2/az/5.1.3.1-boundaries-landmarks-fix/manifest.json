@@ -1,0 +1,28 @@
+{
+  "version": "5.1.3.1-boundaries-landmarks-fix",
+  "country": "az",
+  "generatedAt": "2026-10-07T07:49:20.665Z",
+  "baseVersion": "5.1.3-narimanov-full",
+  "slice": "boundaries-landmarks-fix",
+  "artifacts": [
+    {
+      "id": "hierarchy",
+      "path": "hierarchy/hierarchy.json",
+      "family": "hierarchy",
+      "kind": "hierarchy",
+      "contentType": "application/json",
+      "sizeBytes": 30032857
+    },
+    {
+      "id": "boundaries",
+      "path": "boundaries/boundaries.index.json",
+      "family": "boundaries",
+      "kind": "boundaries"
+    }
+  ],
+  "rules": {
+    "immutablePath": true,
+    "noOverwritePriorVersion": true,
+    "mergeUpsertOnly": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "count": 5369,
+  "chunks": [
+    {
+      "index": 0,
+      "path": "boundaries/boundaries-000.json",
+      "key": "0",
+      "entityCount": 5369
+    }
+  ],
+  "note": "Merged base 5.0.0-pro-ganja-dashkasan-full + 4 override file(s); overrides applied: 4"
+}
