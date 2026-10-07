@@ -1,0 +1,29 @@
+{
+  "version": "5.2.5-goranboy-full",
+  "country": "az",
+  "generatedAt": "2026-10-07T08:32:31.138Z",
+  "baseVersion": "5.2.0-ganja-full",
+  "slice": "e2-e3d-wave",
+  "artifacts": [
+    {
+      "id": "hierarchy",
+      "path": "hierarchy/hierarchy.json",
+      "family": "hierarchy",
+      "kind": "hierarchy",
+      "contentType": "application/json",
+      "sizeBytes": 40317524
+    },
+    {
+      "id": "boundaries",
+      "path": "boundaries/boundaries.index.json",
+      "family": "boundaries",
+      "kind": "boundaries"
+    }
+  ],
+  "rules": {
+    "immutablePath": true,
+    "noOverwritePriorVersion": true,
+    "mergeUpsertOnly": true
+  },
+  "note": "E2-E3d wave: Naftalan+Dashkasan+Goygol+Samukh+Goranboy; E3e n/a (6 region kids only); E5 abs=3307"
+}
