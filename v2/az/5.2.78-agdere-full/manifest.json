@@ -1,0 +1,29 @@
+{
+  "version": "5.2.78-agdere-full",
+  "country": "az",
+  "generatedAt": "2026-10-07T13:03:31.371Z",
+  "baseVersion": "5.2.44-beylagan-full",
+  "slice": "l-m-n-wave",
+  "artifacts": [
+    {
+      "id": "hierarchy",
+      "path": "hierarchy/hierarchy.json",
+      "family": "hierarchy",
+      "kind": "hierarchy",
+      "contentType": "application/json",
+      "sizeBytes": 51273754
+    },
+    {
+      "id": "boundaries",
+      "path": "boundaries/boundaries.index.json",
+      "family": "boundaries",
+      "kind": "boundaries"
+    }
+  ],
+  "rules": {
+    "immutablePath": true,
+    "noOverwritePriorVersion": true,
+    "mergeUpsertOnly": true
+  },
+  "note": "L Shirvan-Salyan + M Lankaran-Astara + N Karabakh tip 5.2.78"
+}
