@@ -1,0 +1,29 @@
+{
+  "version": "5.2.28-xizi-full",
+  "country": "az",
+  "generatedAt": "2026-10-07T11:50:31.172Z",
+  "baseVersion": "5.2.23-g-h-full",
+  "slice": "i1-i5-wave",
+  "artifacts": [
+    {
+      "id": "hierarchy",
+      "path": "hierarchy/hierarchy.json",
+      "family": "hierarchy",
+      "kind": "hierarchy",
+      "contentType": "application/json",
+      "sizeBytes": 44769339
+    },
+    {
+      "id": "boundaries",
+      "path": "boundaries/boundaries.index.json",
+      "family": "boundaries",
+      "kind": "boundaries"
+    }
+  ],
+  "rules": {
+    "immutablePath": true,
+    "noOverwritePriorVersion": true,
+    "mergeUpsertOnly": true
+  },
+  "note": "I1-I5: Shamakhi, Ismailly, Agsu, Gobustan, Xizi; Dağlıq Şirvan + Absheron-Khizi Xızı"
+}
