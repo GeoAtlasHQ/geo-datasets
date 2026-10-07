@@ -1,0 +1,11 @@
+{
+  "count": 1,
+  "chunks": [
+    {
+      "index": 0,
+      "path": "boundaries/boundaries-narimanov.json",
+      "key": "narimanov",
+      "entityCount": 1
+    }
+  ]
+}

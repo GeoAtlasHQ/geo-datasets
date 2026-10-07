@@ -1,0 +1,28 @@
+{
+  "version": "5.1.3-narimanov-full",
+  "country": "az",
+  "generatedAt": "2026-10-07T07:40:26.023Z",
+  "baseVersion": "5.1.2-nasimi-full",
+  "slice": "baku-narimanov",
+  "artifacts": [
+    {
+      "id": "hierarchy",
+      "path": "hierarchy/hierarchy.json",
+      "family": "hierarchy",
+      "kind": "hierarchy",
+      "contentType": "application/json",
+      "sizeBytes": 30032857
+    },
+    {
+      "id": "boundaries",
+      "path": "boundaries/boundaries.index.json",
+      "family": "boundaries",
+      "kind": "boundaries"
+    }
+  ],
+  "rules": {
+    "immutablePath": true,
+    "noOverwritePriorVersion": true,
+    "mergeUpsertOnly": true
+  }
+}
