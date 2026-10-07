@@ -1,0 +1,28 @@
+{
+  "version": "5.1.2-nasimi-full",
+  "country": "az",
+  "generatedAt": "2026-10-07T07:38:10.511Z",
+  "baseVersion": "5.1.1-yasamal-full",
+  "slice": "baku-nasimi",
+  "artifacts": [
+    {
+      "id": "hierarchy",
+      "path": "hierarchy/hierarchy.json",
+      "family": "hierarchy",
+      "kind": "hierarchy",
+      "contentType": "application/json",
+      "sizeBytes": 29040589
+    },
+    {
+      "id": "boundaries",
+      "path": "boundaries/boundaries.index.json",
+      "family": "boundaries",
+      "kind": "boundaries"
+    }
+  ],
+  "rules": {
+    "immutablePath": true,
+    "noOverwritePriorVersion": true,
+    "mergeUpsertOnly": true
+  }
+}

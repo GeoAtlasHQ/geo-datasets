@@ -1,0 +1,11 @@
+{
+  "count": 1,
+  "chunks": [
+    {
+      "index": 0,
+      "path": "boundaries/boundaries-nasimi.json",
+      "key": "nasimi",
+      "entityCount": 1
+    }
+  ]
+}
