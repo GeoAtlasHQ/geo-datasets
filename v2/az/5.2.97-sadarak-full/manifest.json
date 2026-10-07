@@ -1,0 +1,29 @@
+{
+  "version": "5.2.97-sadarak-full",
+  "country": "az",
+  "generatedAt": "2026-10-07T13:41:57.612Z",
+  "baseVersion": "5.2.78-agdere-full",
+  "slice": "o-p-q-wave",
+  "artifacts": [
+    {
+      "id": "hierarchy",
+      "path": "hierarchy/hierarchy.json",
+      "family": "hierarchy",
+      "kind": "hierarchy",
+      "contentType": "application/json",
+      "sizeBytes": 51412655
+    },
+    {
+      "id": "boundaries",
+      "path": "boundaries/boundaries.index.json",
+      "family": "boundaries",
+      "kind": "boundaries"
+    }
+  ],
+  "rules": {
+    "immutablePath": true,
+    "noOverwritePriorVersion": true,
+    "mergeUpsertOnly": true
+  },
+  "note": "O East-Zangazur + P Nakhchivan tip 5.2.97; Q1-Q4 QA PASS no hierarchy fix"
+}
