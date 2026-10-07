@@ -1,0 +1,28 @@
+{
+  "version": "5.1.6.1-boundaries-full",
+  "country": "az",
+  "generatedAt": "2026-10-07T08:05:41.715Z",
+  "baseVersion": "5.1.6-bineqedi-full",
+  "slice": "baku-boundaries-fix",
+  "artifacts": [
+    {
+      "id": "hierarchy",
+      "path": "hierarchy/hierarchy.json",
+      "family": "hierarchy",
+      "kind": "hierarchy",
+      "contentType": "application/json",
+      "sizeBytes": 33076725
+    },
+    {
+      "id": "boundaries",
+      "path": "boundaries/boundaries.index.json",
+      "family": "boundaries",
+      "kind": "boundaries"
+    }
+  ],
+  "rules": {
+    "immutablePath": true,
+    "noOverwritePriorVersion": true,
+    "mergeUpsertOnly": true
+  }
+}
