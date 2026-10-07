@@ -1,0 +1,12 @@
+{
+  "count": 5369,
+  "chunks": [
+    {
+      "index": 0,
+      "path": "boundaries/boundaries-000.json",
+      "key": "0",
+      "entityCount": 5369
+    }
+  ],
+  "note": "Merged base 5.2.11-sheki-full + 11 override file(s); overrides applied: 11"
+}
