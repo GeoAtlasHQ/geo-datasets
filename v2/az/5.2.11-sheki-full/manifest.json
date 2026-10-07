@@ -1,0 +1,29 @@
+{
+  "version": "5.2.11-sheki-full",
+  "country": "az",
+  "generatedAt": "2026-10-07T10:54:13.665Z",
+  "baseVersion": "5.2.5-goranboy-full",
+  "slice": "f-g1-wave",
+  "artifacts": [
+    {
+      "id": "hierarchy",
+      "path": "hierarchy/hierarchy.json",
+      "family": "hierarchy",
+      "kind": "hierarchy",
+      "contentType": "application/json",
+      "sizeBytes": 41767139
+    },
+    {
+      "id": "boundaries",
+      "path": "boundaries/boundaries.index.json",
+      "family": "boundaries",
+      "kind": "boundaries"
+    }
+  ],
+  "rules": {
+    "immutablePath": true,
+    "noOverwritePriorVersion": true,
+    "mergeUpsertOnly": true
+  },
+  "note": "F1-F5 tip 5.2.10-gedebey + Sheki re-merge; H not in status READY"
+}
