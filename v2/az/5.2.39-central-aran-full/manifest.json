@@ -1,0 +1,29 @@
+{
+  "version": "5.2.39-central-aran-full",
+  "country": "az",
+  "generatedAt": "2026-10-07T12:10:02.170Z",
+  "baseVersion": "5.2.28-xizi-full",
+  "slice": "j-central-aran",
+  "artifacts": [
+    {
+      "id": "hierarchy",
+      "path": "hierarchy/hierarchy.json",
+      "family": "hierarchy",
+      "kind": "hierarchy",
+      "contentType": "application/json",
+      "sizeBytes": 46281641
+    },
+    {
+      "id": "boundaries",
+      "path": "boundaries/boundaries.index.json",
+      "family": "boundaries",
+      "kind": "boundaries"
+    }
+  ],
+  "rules": {
+    "immutablePath": true,
+    "noOverwritePriorVersion": true,
+    "mergeUpsertOnly": true
+  },
+  "note": "J tip 5.2.34-yevlax-rayon + fork Zardab/Goychay/Kurdamir re-merge"
+}
