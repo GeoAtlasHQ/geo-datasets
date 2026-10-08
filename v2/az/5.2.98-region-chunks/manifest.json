@@ -1,0 +1,35 @@
+{
+  "version": "5.2.98-region-chunks",
+  "country": "az",
+  "generatedAt": "2026-10-08T10:57:43.888Z",
+  "baseVersion": "5.2.97-sadarak-full",
+  "slice": "s-region-chunks",
+  "artifacts": [
+    {
+      "id": "hierarchy",
+      "path": "hierarchy/hierarchy.json",
+      "family": "hierarchy",
+      "kind": "hierarchy",
+      "contentType": "application/json",
+      "sizeBytes": 51412655
+    },
+    {
+      "id": "boundaries",
+      "path": "boundaries/boundaries.index.json",
+      "family": "boundaries",
+      "kind": "boundaries"
+    },
+    {
+      "id": "catalog",
+      "path": "catalog.json",
+      "family": "catalog",
+      "kind": "region-catalog"
+    }
+  ],
+  "rules": {
+    "immutablePath": true,
+    "noOverwritePriorVersion": true,
+    "mergeUpsertOnly": true
+  },
+  "note": "S region chunks + catalog; hierarchy unchanged from 5.2.97; boundaries-000 kept for legacy"
+}
