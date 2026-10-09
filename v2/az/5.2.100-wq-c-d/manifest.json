@@ -1,0 +1,35 @@
+{
+  "version": "5.2.100-wq-c-d",
+  "country": "az",
+  "generatedAt": "2026-10-09T10:22:40.222Z",
+  "baseVersion": "5.2.99-w-baku",
+  "slice": "wq-c-d",
+  "artifacts": [
+    {
+      "id": "hierarchy",
+      "path": "hierarchy/hierarchy.json",
+      "family": "hierarchy",
+      "kind": "hierarchy",
+      "contentType": "application/json",
+      "sizeBytes": 57993945
+    },
+    {
+      "id": "boundaries",
+      "path": "boundaries/boundaries.index.json",
+      "family": "boundaries",
+      "kind": "boundaries"
+    },
+    {
+      "id": "catalog",
+      "path": "catalog.json",
+      "family": "catalog",
+      "kind": "region-catalog"
+    }
+  ],
+  "rules": {
+    "immutablePath": true,
+    "noOverwritePriorVersion": true,
+    "mergeUpsertOnly": true
+  },
+  "note": "WQ-C C1-C3 + WQ-D D0-D11 on 5.2.99-w-baku; entity 66265; region chunks + boundaries-000"
+}
