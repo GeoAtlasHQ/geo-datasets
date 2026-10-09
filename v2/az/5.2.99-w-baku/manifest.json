@@ -1,0 +1,35 @@
+{
+  "version": "5.2.99-w-baku",
+  "country": "az",
+  "generatedAt": "2026-10-09T07:47:58.571Z",
+  "baseVersion": "5.2.98-region-chunks",
+  "slice": "wq-b-baku",
+  "artifacts": [
+    {
+      "id": "hierarchy",
+      "path": "hierarchy/hierarchy.json",
+      "family": "hierarchy",
+      "kind": "hierarchy",
+      "contentType": "application/json",
+      "sizeBytes": 55482832
+    },
+    {
+      "id": "boundaries",
+      "path": "boundaries/boundaries.index.json",
+      "family": "boundaries",
+      "kind": "boundaries"
+    },
+    {
+      "id": "catalog",
+      "path": "catalog.json",
+      "family": "catalog",
+      "kind": "region-catalog"
+    }
+  ],
+  "rules": {
+    "immutablePath": true,
+    "noOverwritePriorVersion": true,
+    "mergeUpsertOnly": true
+  },
+  "note": "WQ-B Bakı B1-B12 quality pass; N-way merge on 5.2.98; entity 64719; region chunks + boundaries-000"
+}

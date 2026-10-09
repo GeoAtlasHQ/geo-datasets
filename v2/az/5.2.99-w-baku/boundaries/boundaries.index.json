@@ -1,0 +1,98 @@
+{
+  "count": 5369,
+  "defaultChunk": "absheron",
+  "chunks": [
+    {
+      "index": 0,
+      "path": "boundaries/boundaries-absheron.json",
+      "key": "absheron",
+      "entityCount": 1106,
+      "preload": true
+    },
+    {
+      "index": 1,
+      "path": "boundaries/boundaries-central-aran.json",
+      "key": "central-aran",
+      "entityCount": 360,
+      "preload": false
+    },
+    {
+      "index": 2,
+      "path": "boundaries/boundaries-east-zangazur.json",
+      "key": "east-zangazur",
+      "entityCount": 131,
+      "preload": false
+    },
+    {
+      "index": 3,
+      "path": "boundaries/boundaries-ganja-dashkasan.json",
+      "key": "ganja-dashkasan",
+      "entityCount": 243,
+      "preload": false
+    },
+    {
+      "index": 4,
+      "path": "boundaries/boundaries-gazakh-tovuz.json",
+      "key": "gazakh-tovuz",
+      "entityCount": 385,
+      "preload": false
+    },
+    {
+      "index": 5,
+      "path": "boundaries/boundaries-karabakh.json",
+      "key": "karabakh",
+      "entityCount": 735,
+      "preload": false
+    },
+    {
+      "index": 6,
+      "path": "boundaries/boundaries-lankaran-astara.json",
+      "key": "lankaran-astara",
+      "entityCount": 647,
+      "preload": false
+    },
+    {
+      "index": 7,
+      "path": "boundaries/boundaries-mil-mugan.json",
+      "key": "mil-mugan",
+      "entityCount": 217,
+      "preload": false
+    },
+    {
+      "index": 8,
+      "path": "boundaries/boundaries-mountainous-shirvan.json",
+      "key": "mountainous-shirvan",
+      "entityCount": 300,
+      "preload": false
+    },
+    {
+      "index": 9,
+      "path": "boundaries/boundaries-nakhchivan.json",
+      "key": "nakhchivan",
+      "entityCount": 154,
+      "preload": false
+    },
+    {
+      "index": 10,
+      "path": "boundaries/boundaries-quba-xacmaz.json",
+      "key": "quba-xacmaz",
+      "entityCount": 515,
+      "preload": false
+    },
+    {
+      "index": 11,
+      "path": "boundaries/boundaries-sheki-zagatala.json",
+      "key": "sheki-zagatala",
+      "entityCount": 391,
+      "preload": false
+    },
+    {
+      "index": 12,
+      "path": "boundaries/boundaries-shirvan-salyan.json",
+      "key": "shirvan-salyan",
+      "entityCount": 185,
+      "preload": false
+    }
+  ],
+  "note": "Region chunks (S); default=absheron; source entities=5369"
+}
